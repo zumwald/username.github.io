@@ -1,0 +1,48 @@
+## Basic Configuration
+
+baseurl = "https://danzumwalt.com"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Dan Zumwalt"
+title = "Dan Zumwalt"
+
+theme = "goa"
+
+## Site Settings
+[params]
+author = "Dan Zumwalt"
+intro = "foobar"
+description = ""
+authorimage = "dan.jpg"
+dateformat = "Sep 1, 2019"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "zumwald"
+linkedin = "dzumwalt"
+email = "contact@danzumwalt.com"
+
+## Extras
+[params.extra]
+copyright = "© 2016. Dan Zumwalt. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+
+## Main Menu
+[[menu.main]]
+    name = ""
+    weight = 100
+    identifier = ""
+    url = "/"
