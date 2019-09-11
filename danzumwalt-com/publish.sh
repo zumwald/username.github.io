@@ -17,6 +17,7 @@ yarn fullbuild
 
 cd $DIR/../gh-pages
 git status
+git add .
 git commit -a
 git push
 
