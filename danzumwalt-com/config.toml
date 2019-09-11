@@ -17,8 +17,8 @@ theme = "goa"
 ## Site Settings
 [params]
 author = "Dan Zumwalt"
-intro = ""
-description = ""
+intro = " "
+description = " "
 authorimage = "dan.jpg"
 dateformat = "Sep 1, 2019"
 

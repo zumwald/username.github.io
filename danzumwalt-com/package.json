@@ -8,10 +8,12 @@
     "fullbuild": "yarn build && yarn build:css",
     "build": "hugo --minify",
     "build:css": "postcss ./themes/goa/static/css -d ../gh-pages/css -u autoprefixer --no-map",
+    "build:js": "uglifyjs ./themes/goa/static/js/typing.js -c -m  -o ../gh-pages/js/typing.js",
     "dev": "hugo server -D"
   },
   "devDependencies": {
     "autoprefixer": "^9.6.1",
-    "postcss-cli": "^6.1.3"
+    "postcss-cli": "^6.1.3",
+    "uglify-js": "^3.6.0"
   }
 }
