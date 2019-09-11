@@ -7,7 +7,7 @@ languageCode = "en-US"
 
 contentdir = "content"
 layoutdir = "layouts"
-publishdir = "public"
+publishdir = "../gh-pages"
 
 author = "Dan Zumwalt"
 title = "Dan Zumwalt"
@@ -17,15 +17,17 @@ theme = "goa"
 ## Site Settings
 [params]
 author = "Dan Zumwalt"
-intro = "foobar"
+intro = ""
 description = ""
 authorimage = "dan.jpg"
 dateformat = "Sep 1, 2019"
 
 ## Site Meta Settings
 [params.meta]
-description = "Simple minimalist theme"
-keywords = "minimalist,blog,goa,hugo,developer"
+description = "Dan Zumwalt"
+keywords = "dan,zumwalt,dan zumwalt,zumwald"
+googleAnalytics = "UA-147634694-1"
+enableRobotsTXT = true
 
 ## Social Accounts
 [params.social]
@@ -37,7 +39,6 @@ email = "contact@danzumwalt.com"
 [params.extra]
 copyright = "© 2016. Dan Zumwalt. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
 poweredby = true
-highlightjs = true
 socialmarkup = true
 
 ## Main Menu

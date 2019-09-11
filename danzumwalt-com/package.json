@@ -1,0 +1,17 @@
+{
+  "name": "danzumwalt-com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "fullbuild": "yarn build && yarn build:css",
+    "build": "hugo --minify",
+    "build:css": "postcss ./themes/goa/static/css -d ../gh-pages/css -u autoprefixer --no-map",
+    "dev": "hugo server -D"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "postcss-cli": "^6.1.3"
+  }
+}
