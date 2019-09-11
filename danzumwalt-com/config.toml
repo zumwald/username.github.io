@@ -26,7 +26,6 @@ dateformat = "Sep 1, 2019"
 [params.meta]
 description = "Dan Zumwalt"
 keywords = "dan,zumwalt,dan zumwalt,zumwald"
-googleAnalytics = "UA-147634694-1"
 enableRobotsTXT = true
 
 ## Social Accounts
@@ -37,13 +36,12 @@ email = "contact@danzumwalt.com"
 
 ## Extras
 [params.extra]
-copyright = "© 2016. Dan Zumwalt. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
-poweredby = true
-socialmarkup = true
+poweredby = false
+socialmarkup = false
 
 ## Main Menu
 [[menu.main]]
-    name = ""
+    name = "resume"
     weight = 100
-    identifier = ""
-    url = "/"
+    identifier = "resume"
+    url = "/resume"

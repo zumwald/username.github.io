@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "theme": "spartan"
+  },
+  "basics": {
+    "name": "Dan Zumwalt",
+    "email": "hire@danzumwalt.com",
+    "phone": "(206) 304-1639",
+    "website": "https://danzumwalt.com",
+    "summary": "Dan is passionate about the craft of software development. He believes the purpose of software is to make our lives easier, not harder. You'll find that Dan often uses a combination of humour and metaphors to convey complex messages, so if you overhear laughter at a whiteboard or in a meeting room it could be an indicator that the team just made a breakthrough!"
+  },
+  "work": [
+    {
+      "company": "Microsoft",
+      "position": "Senior Software Engineer",
+      "startDate": "2015-04-01",
+      "endDate": "2019-09-30",
+      "summary": "Building new capabilities for users of Microsoft Teams (https://products.office.com/en-us/microsoft-teams/group-chat-software). Prior work includes projects in Bing, msn.com, and Windows.",
+      "highlights": [
+        "- contributed to the organization's next-generation architecture by defining shared best practices and developing reusable solutions",
+        "- led a small team of engineers to deliver new \"team templates\" capabilities via a public api (details: https://docs.microsoft.com/en-us/microsoftteams/get-started-with-teams-templates).",
+        "- built the flighting and phased deployment framework used to deliver new features and improvements to users of Microsoft Teams every day.",
+        "- assembled and led a team of engineers to tackle systemic issues in the Teams engineering system; over the course of a month we built tools and frameworks to stabilize our build and test systems which allowed the organization to resume shipping regular updates to customers."
+      ]
+    },
+    {
+      "company": "Alpha Technologies",
+      "position": "Intern",
+      "startDate": "2012-02-01",
+      "endDate": "2013-06-01",
+      "summary": "Worked as part of a small team to design and build a first-to-market cloud-based cable power supply maintenance management system. In our small and fast-paced team, everyone wore multiple hats. My primary role was to refine and implement a proprietary battery health & runtime estimation algorithm.",
+      "highlights": [
+        "- eliminated months of Developed C program to automate data extraction and transformation for data analysis in Excel, saving months of labor from the previously manual data extraction.",
+        "- tripled battery testing throughput and reclaimed $20,000 in test equipment previously written off as broken by fixing bugs in the software used to control the equipment."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Western Washington University",
+      "area": "B.S. Electronics Engineering Technology",
+      "startDate": "2009-09-01",
+      "endDate": "2013-06-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "",
+      "keywords": [
+        "Infrastructure as Code",
+        "ASP.NET Core",
+        "C#",
+        "JavaScript",
+        "TypeScript",
+        "Node.JS",
+        "Distributed Systems",
+        "npm",
+        "DevOps",
+        "git",
+        "scripting",
+        "Azure",
+        "Continuous Integration",
+        "Continuous Delivery",
+        "Agile"
+      ]
+    }
+  ]
+}
