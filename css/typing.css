@@ -1,3 +1,9 @@
+@-webkit-keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
 @keyframes caret {
   50% {
     border-color: transparent;
@@ -7,5 +13,6 @@
 .intro {
   display: inline-block;
   border-right: 0.05em solid #526d7a;
-  animation: caret 1s steps(1) infinite;
+  -webkit-animation: caret 1s steps(1) infinite;
+          animation: caret 1s steps(1) infinite;
 }
