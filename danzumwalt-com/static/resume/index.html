@@ -175,13 +175,8 @@
         font-size: 1.1em;
     }
 
-    ul {
-        margin-top: 1em;
-    }
-
     div.item {
-        margin: 1em 0 2em;
-        padding-bottom: 2em;
+        margin: 1em 0 1em;
     }
 
     div.item:last-of-type {
@@ -548,7 +543,7 @@
             float: left;
         }
 
-        section>header>.date {
+        .date {
             float: right;
             line-height: 1.3;
         }
@@ -680,37 +675,84 @@
                     <h3 class="name">
                         Microsoft
                     </h3>
-                    <div class="date">
+                </header>
+                <div class="item">
+                    <span class="position">
+                        Senior Software Engineer
+                    </span>
+                    <span class="date">
                         <span class="startDate">
-                            June 2013
+                            Sept 2017
                         </span>
                         <span class="endDate">
                             - Present
                         </span>
-                    </div>
-                </header>
-                <div class="item">
-                    <div class="position">
-                        Senior Software Engineer
-                    </div>
-                    <div class="summary">
-                        <p>Building new capabilities for users of Microsoft Teams
-                            (<a target="_blank" href="https://products.office.com/en-us/microsoft-teams/group-chat-software">https://products.office.com/en-us/microsoft-teams/group-chat-software</a>). Prior work includes
-                            projects in Bing, msn.com, and Windows.</p>
-                    </div>
+                    </span>
                     <ul class="highlights">
                         <li>Contributed to the organization&#x27;s next-generation architecture by defining shared
-                            best practices and developing reusable solutions</li>
-                        <li>Led a small team of engineers to deliver new &quot;team templates&quot; capabilities via a
+                            best practices and developing reusable solutions.
+                        </li>
+                        <li>Led a team of four engineers to deliver new &quot;team templates&quot; capabilities via a
                             public api (details:
-                            <a target="_blank" href="https://docs.microsoft.com/en-us/microsoftteams/get-started-with-teams-templates">https://docs.microsoft.com/en-us/microsoftteams/get-started-with-teams-templates</a>).</li>
-                        <li>Built the flighting and phased deployment framework used to deliver new features and
-                            improvements to users of Microsoft Teams every day.</li>
+                            <a target="_blank" href="https://docs.microsoft.com/en-us/microsoftteams/get-started-with-teams-templates">https://docs.microsoft.com/en-us/microsoftteams/get-started-with-teams-templates</a>).
+                        </li>
+                        <li>
+                            Served as the architect for the build and release systems for Microsoft Teams; during my time leading the team we introduced the organization to <i>continuous delivery</i>, transitioning from weekly deployments to deploying multiple builds each hour.
+                        </li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <span class="position">
+                        Software Engineer II (Microsoft Teams)
+                    </span>
+                    <span class="date">
+                        <span class="startDate">
+                            Feb 2016
+                        </span>
+                        <span class="endDate">
+                            - Sept 2017
+                        </span>
+                    </span>
+                    <ul class="highlights">
+                        <li>Built the flighting and phased deployment framework used to deliver new features and improvements to users of Microsoft Teams every day.</li>
                         <li>Assembled and led a team of engineers to tackle systemic issues in the Teams engineering
                             system; over the course of a month we built tools and frameworks to stabilize our build and
                             test systems which allowed the organization to resume shipping regular updates to customers.
                         </li>
                     </ul>
+                </div>
+                <div class="item">
+                    <span class="position">
+                        Software Engineer II (MSN)
+                    </span>
+                    <span class="date">
+                        <span class="startDate">
+                            June 2015
+                        </span>
+                        <span class="endDate">
+                            - Feb 2016
+                        </span>
+                    </span>
+                    <ul class="highlights">
+                        <li>Eliminated the need for $2M in manual testing annually by investing in automation and tooling improvements.</li>
+                        <li>Established new revenue streams for the MSN business by integrating MSN and Bing editorial tools in order for MSN content to be shown and monetized on Bing canvases where Cortana or other Bing treatments were not available.</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <span class="position">
+                        Software Engineer (Bing, MSN)
+                    </span>
+                    <span class="date">
+                        <span class="startDate">
+                            June 2013
+                        </span>
+                        <span class="endDate">
+                            - June 2015
+                        </span>
+                    </span>
+                    <div class="summary">
+                        <p>Led geo-distributed teams to deliver international testing for MSN-powered experiences on Windows and Windows Phone 8.1, Android, iOS and Amazon Fire.</p>
+                    </div>
                 </div>
                 <header>
                     <h3 class="name">
@@ -727,7 +769,7 @@
                 </header>
                 <div class="item">
                     <div class="position">
-                        Intern
+                        Engineering Intern
                     </div>
                     <div class="summary">
                         <p>Worked as part of a small team to design and build a first-to-market cloud-based cable power
@@ -735,13 +777,6 @@
                             multiple hats. My primary role was to refine and implement a proprietary battery health
                             &amp; runtime estimation algorithm.</p>
                     </div>
-                    <ul class="highlights">
-                        <li>Eliminated months of Developed C program to automate data extraction and transformation
-                            for data analysis in Excel, saving months of labor from the previously manual data
-                            extraction.</li>
-                        <li>Tripled battery testing throughput and reclaimed $20,000 in test equipment previously
-                            written off as broken by fixing bugs in the software used to control the equipment.</li>
-                    </ul>
                 </div>
             </section>
         </section>
@@ -770,17 +805,18 @@
         </section>
 
         <section class="section">
-            <h2 class='section-title'>Skills</h2>
+            <h2 class='section-title'>Skills & Tools</h2>
             <section id="skills">
                 <div class="item">
                     <ul class="keywords">
+                        <li>C#</li>
+                        <li>TypeScript</li>
+                        <li>JavaScript</li>
+                        <li>Distributed Systems</li>
+                        <li>Node.JS</li>
                         <li>Infrastructure as Code</li>
                         <li>ASP.NET Core</li>
-                        <li>C#</li>
-                        <li>JavaScript</li>
-                        <li>TypeScript</li>
-                        <li>Node.JS</li>
-                        <li>Distributed Systems</li>
+                        <li>.NET</li>
                         <li>npm</li>
                         <li>DevOps</li>
                         <li>git</li>
