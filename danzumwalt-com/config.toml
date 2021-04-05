@@ -44,4 +44,4 @@ socialmarkup = false
     name = "resume"
     weight = 100
     identifier = "resume"
-    url = "/resume/"
+    url = "/resume/resume.pdf"
